@@ -5231,7 +5231,8 @@
       ];
     "snoo" =
       ps: with ps; [
-      ]; # missing inputs: python-snoo
+        python-snoo
+      ];
     "snooz" =
       ps: with ps; [
         aioesphomeapi
@@ -5827,7 +5828,8 @@
       ];
     "touchline" =
       ps: with ps; [
-      ]; # missing inputs: pytouchline_extended
+        pytouchline-extended
+      ];
     "touchline_sl" =
       ps: with ps; [
         pytouchlinesl
@@ -7277,6 +7279,7 @@
     "snapcast"
     "snips"
     "snmp"
+    "snoo"
     "snooz"
     "solaredge"
     "solarlog"

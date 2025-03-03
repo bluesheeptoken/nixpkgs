@@ -15,8 +15,7 @@ buildPythonPackage rec {
   src = fetchFromGitHub {
     owner = "pglab-electronics";
     repo = "pypglab";
-    # https://github.com/pglab-electronics/pypglab/issues/1
-    rev = "bb4f0010ea01c63942443b496d7ad32852c5e2ad";
+    tag = version;
     hash = "sha256-b+o98DrTK1HBKvRfTjdJ1MkdUHEg/TaQZhoLR7URZ0c=";
   };
 

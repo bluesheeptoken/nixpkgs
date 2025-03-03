@@ -5201,7 +5201,8 @@
       ]; # missing inputs: pysmarty2
     "smhi" =
       ps: with ps; [
-      ]; # missing inputs: pysmhi
+        pysmhi
+      ];
     "smlight" =
       ps: with ps; [
         pysmlight
@@ -7273,6 +7274,7 @@
     "smart_meter_texas"
     "smartthings"
     "smarttub"
+    "smhi"
     "smlight"
     "sms"
     "smtp"
